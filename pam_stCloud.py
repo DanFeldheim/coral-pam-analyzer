@@ -9,6 +9,8 @@ from coral PAM experiments performed at Mote Marine Laboratory
 The data are uploaded as a csv file.
 The output may be downloaded as a csv file. 
 
+This app was deployed on streamlit cloud at https://mote-pam-analyzer.streamlit.app/
+
 @author: danfeldheim
 """
 
