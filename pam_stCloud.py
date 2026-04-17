@@ -67,10 +67,12 @@ class Flow_Control():
             
             # Import target output file into dataframe
             output_df = uploader.upload_output(output_file)
-            output_df = output_df.dropna(how='all')
             
             if data_df and output_file:
-            
+                
+                # Drop rows with all columns empty
+                output_df = output_df.dropna(how='all')
+                
                 # Find the max 
                 max_finder = Find_Max()
                 max_dict = max_finder.get_max_par_values(data_df, self.search_columns_A, self.search_columns_B)
