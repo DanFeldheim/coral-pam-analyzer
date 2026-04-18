@@ -125,7 +125,7 @@ class Setup():
             
             st.markdown(f"<p style='color: Blue; \
                           font-size: 32px; \
-                          margin: 0;'>Coral Health and Disease PAM Data Analyzer</p>",
+                          margin: 0;'>Coral Health and Disease PAM Data Organizer</p>",
                           unsafe_allow_html=True
                         )
         st.divider()
