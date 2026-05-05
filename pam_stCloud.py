@@ -593,7 +593,7 @@ class About():
                             - **Files** → Data and target output files must be `.csv`format. 
                             - **Data Files** → Must have at least the following columns.
                               - Genotype
-                              - Columns with Y(II), Y(NPQ), and ETR followed by-Genotype. (e.g., Y(II)-C44).
+                              - Columns with Y(II), Y(NPQ), and ETR followed by _Genotype_tank #. (e.g., Y(II)1_C44_C1).
                             - **Output Files** → Must have at least the following columns.
                               - Genotype
                               - Columns with Y(II) initial max, Y(NPQ) initial max, and ETR inital max).
